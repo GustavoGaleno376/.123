@@ -159,7 +159,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ weatherData, onMapClick, cl
     if (lat > 4.0) return { region: 'Norte', state: 'Amapá' };
     if (lat > 1.0) return { region: 'Norte', state: 'Pará' };
     if (lat > -2.5) return { region: 'Nordeste', state: 'Maranhão' };
-    if (lat > -5.0) return { region: 'Nordeste', state: 'Piauí/Ceará' };
+    if (lat > -5.0) return { region: 'Nordeste', state: 'Ceará' };
     if (lat > -7.5) return { region: 'Nordeste', state: 'Rio Grande do Norte' };
     if (lat > -8.5) return { region: 'Nordeste', state: 'Paraíba' };
     if (lat > -9.5) return { region: 'Nordeste', state: 'Pernambuco' };
